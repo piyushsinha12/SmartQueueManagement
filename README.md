@@ -6,6 +6,18 @@ A simple Java-based console project to manage queues in banks, hospitals, and of
 
 - Add customers to the queue
 - Assign priority levels (Emergency, Senior Citizen, Regular)
+-  ## 🎯 Priority Logic
+
+The system uses a Priority Queue where:
+
+> 🔢 Lower numbers = Higher priority
+
+| Customer Type      | Priority Value | Description                |
+|--------------------|----------------|----------------------------|
+| Emergency          | 1              | Highest priority – served first  
+| Senior Citizen     | 2              | Medium priority  
+| Regular Customer   | 3              | Lowest priority – served after others
+
 - Serve customers based on priority and arrival time (using DSA concepts like PriorityQueue)
 - Display current queue status
 - Remove served customers
